@@ -1,0 +1,29 @@
+header{
+  min-height: 10px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+header img{
+  width: 200px;
+  height: 80px;
+  margin-left: 5rem;
+  object-fit: cover;
+}
+
+header nav{
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+  margin-right: 0.5rem;
+  padding: 0.6rem 1rem;
+}
+
+header a:hover{
+  text-decoration: underline;
+}

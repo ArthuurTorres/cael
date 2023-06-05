@@ -1,0 +1,42 @@
+.s1{
+  text-align: center;
+}
+
+.s1 h2{
+  margin-top: 1rem;
+}
+
+.item img{
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.icons-partner img:hover{
+  transform: scale(1.1);
+}
+
+
+.inner{
+  display: flex;
+  
+}
+
+.item{
+  min-height: 100px;
+  min-width: 400px;
+  padding: 2px;
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
+
+.arrow-detail{
+  width: 56px;
+  height: 56px;
+  margin: auto;
+  margin-left: 1rem;
+}
