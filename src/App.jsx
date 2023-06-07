@@ -1,7 +1,11 @@
-import './App.css'
+import './components/utilities/global.css'
+import './components/utilities/colors.css'
 import Form from './components/Form'
 import Header from './components/Header'
-import SectionOne from './components/SectionOne'
+import Partner from './components/Partner'
+import Profile from './components/Profile'
+import Banner from './components/Banner'
+import Services from './components/Services'
 
 function App() {
 
@@ -9,7 +13,10 @@ function App() {
     <>
       <Header />
       <Form />
-      <SectionOne />
+      <Partner />
+      <Profile />
+      <Banner />
+      <Services />
     </>
   )
 }

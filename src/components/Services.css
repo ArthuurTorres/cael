@@ -1,0 +1,40 @@
+.section-services{
+  min-height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.service-text{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.service-text h2{
+ margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-text img{
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.service-icon img{
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+}
+
+.service-icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.di{
+  margin-left: 2rem;
+  width: 250px;
+  height: 260px;
+  display: flex;
+}

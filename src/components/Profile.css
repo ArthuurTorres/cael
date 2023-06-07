@@ -1,0 +1,53 @@
+.s2{
+  display: flex;
+  min-height: 500px;
+  margin-top: 2rem;
+}
+
+.profile-logo{
+  margin: auto;
+}
+
+.profile-logo img{
+  width: 600px;
+  height: 380px;
+  border-radius: 2rem;
+  object-fit: cover;
+  margin-left: 4rem;
+}
+
+.profile{
+  margin:auto;
+  width: 53%;
+}
+
+.profile h2{
+  color: var(--color-1);
+  font-size: 1.8rem;
+  margin-bottom: 1.3rem;
+}
+.profile p{
+  font-size: 1rem;
+}
+
+.profile-number{
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--color-1)
+}
+
+.profile-number h2{
+  text-align: left;
+}
+
+.profile-number img{
+  width: 68px;
+  height: 68px;
+}
+
+.profile-number div{
+  /* background-color: var(--color-1); */
+  border-radius: 1rem;
+  margin-right: 4rem;
+}

@@ -1,7 +1,7 @@
 .containerform{
-  height: 600px;
-  background-image: url('../assets/banner1.jpg');
-  object-fit: cover;
+  min-height: 600px;
+  background-image: url('../assets/fbanner.jpg');
+  /* object-fit: cover; */
   border-radius: 0.3rem;
 }
 
@@ -64,7 +64,6 @@
 .form button {
   padding: 1rem 2rem;
   margin: auto;
-  background: linear-gradient(var(--color-3), var(--color-3));
   border-radius: 5rem;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
