@@ -6,14 +6,15 @@ const Header = () => {
     <>
     <header>
       <div>
+      <a href='#'> 
       <img src={logo} alt="logo da empresa" />
+      </a>
       </div>
-      <nav>
-      <a href='#'>Home</a>
-      <a href='#'>Planos</a>
-      <a href='#'>Nada</a>
+      <nav className='t1'>
+      <a href='#'>Serviços</a>
+      <a href='#'>Quem Somos?</a>
+      <a href='#'>Benefícios</a>
       <a href='#'>Contato</a>
-      <a href='#'>Sobre nós</a>
       </nav>
     </header>
     </>

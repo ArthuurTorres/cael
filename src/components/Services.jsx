@@ -1,95 +1,42 @@
 import './Services.css'
-import serviceb from '../assets/services-banner.png'
-import icon from '../assets/icons/icon.gif'
+import health from '../assets/health.png'
+import security from '../assets/security.png'
+import dentistry from '../assets/dentistry.png'
+import car from '../assets/car.png'
+
 
 const Services = () => {
   return (
 
     <section className="section-services">
+     
 
-    <div className="service-icon">
+      <h2 className='t1'>Serviços<span className="text-detail">.</span></h2>
+   
 
-
-    <div className="di">
+      <div className="icon-text t2">
       <div>
-        <img src={icon} alt="icons" />
+          <a href="#">
+          <img src={health} alt="Refound" />
+          </a>
       </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
-      </div>
-    </div>
-
-    <div className="di">
       <div>
-        <img src={icon} alt="icons" />
+          <a href="#">
+          <img src={security} alt="Refound" />
+          </a>
       </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
-      </div>
-    </div>
-
-    <div className="di">
       <div>
-        <img src={icon} alt="icons" />
+          <a href="#">
+          <img src={dentistry} alt="Refound" />
+          </a>
       </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
-      </div>
-    </div>
-
-    <div className="di">
       <div>
-        <img src={icon} alt="icons" />
-      </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
+          <a href="#">
+          <img src={car} alt="Refound" />
+          </a>
       </div>
     </div>
-
-    <div className="di">
-      <div>
-        <img src={icon} alt="icons" />
-      </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
-      </div>
-    </div>
-
-    <div className="di">
-      <div>
-        <img src={icon} alt="icons" />
-      </div>
-      <div className="icon-text">
-      <h3>Gestão de riscos.</h3>
-      <p>Possui uma inovadora plataforma que compreende Business Intelligence 
-        e Inteligência Artificial, que permite analisar diferentes dados 
-        comparativos de utilização por parte dos beneficiários.</p>
-      </div>
-    </div>
-
-    </div>
-
-    <div className="service-text">
-    <h2>Nossa consultoria vai muito além do trabalho de uma corretora.</h2>
-      <img src={serviceb} alt="logo da empresa" />
-    </div>
-
-  </section>
+    </section>
   )
 }
 

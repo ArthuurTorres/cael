@@ -1,11 +1,16 @@
-import './components/utilities/global.css'
+import './components/utilities/typography.css'
 import './components/utilities/colors.css'
 import Form from './components/Form'
 import Header from './components/Header'
-import Partner from './components/Partner'
 import Profile from './components/Profile'
 import Banner from './components/Banner'
 import Services from './components/Services'
+import Benefits from './components/Benefits'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import WhatsAppButton from './components/Whatsapp'
+import CarouselComponent from './components/Carousel'
+import Avaliation from './components/Avaliation'
 
 function App() {
 
@@ -13,10 +18,15 @@ function App() {
     <>
       <Header />
       <Form />
-      <Partner />
-      <Profile />
+      <CarouselComponent />
       <Banner />
       <Services />
+      <Profile />
+      <Benefits />
+      <Avaliation />
+      <Contact />
+      <WhatsAppButton />
+      <Footer />
     </>
   )
 }

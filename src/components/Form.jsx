@@ -6,8 +6,10 @@ const Form = () => {
       <div className="bg-form">
       <div className="container">
         <form className="form">
-          <h2>Entre em Contato</h2>
-          <input type="text" name="Nome" placeholder='nome' />
+          <h2 className='t1'>Preencha o Formulário e 
+          <br></br>
+          <span className="text-detail">receba sua cotação.</span></h2>
+          <input type="text" name="Nome" placeholder='Nome' />
           <input placeholder='Email'></input> 
           <input placeholder='Telefone'></input>
           <select id="appearance-select">

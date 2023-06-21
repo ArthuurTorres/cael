@@ -1,0 +1,23 @@
+:root{
+  --text-Poppins: 'Poppins';
+  --text-Roboto: 'Roboto';
+}
+
+.text-Poppins{
+  font-family: 'Poppins';
+}
+.text-Roboto{
+  font-family: 'Roboto';
+}
+
+.text-detail{
+  color: var(--color-3);
+}
+
+.t1{
+  font-family: var(--text-Poppins);
+}
+
+.t2{
+  font-family: var(--text-Roboto);
+}

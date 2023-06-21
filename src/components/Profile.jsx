@@ -1,48 +1,55 @@
 import './Profile.css'
-import img from '../assets/banner1.jpg'
-import img1 from '../assets/icons/img1.gif'
-import img2 from '../assets/icons/img2.gif'
-import img3 from '../assets/icons/img3.gif'
-import img4 from '../assets/icons/img4.gif'
+import img from '../assets/1.svg'
+import people from '../assets/icons/people.png'
 
 const Profile = () => {
   return (
     <section className="s2">
+      <div className="caralho">
       <div className="profile-logo">
-        <img src={img} alt="logo da empresa" />
+        
       </div>
+
       <div className="profile">
-        <h2>Quem somos?</h2>
-        <p>Somos uma empresa de consultoria de seguros e planos de saúde com um
-           único objetivo: tornar a vida dos nossos clientes mais fácil. Sabemos
-            que escolher o plano de saúde ideal pode ser complicado e estressante
-            , por isso nos esforçamos ao máximo para oferecer com excelência um
-             atendimento personalizado e humano.</p>
+        <div className="text-profile">
+        <img className="profile-logo" src={img} alt="logo da empresa" />
+        <h3 className='t1'>Quem somos?</h3>
+        <h2 className='t1'><span className='text-detail'>Sua melhor escolha.</span></h2>
+        
+        <p className='t2'>Nós somos uma consultoria especializada em seguros e 
+        planos de saúde atuando há mais de 8 anos no mercado, oferencendo
+        serviços alta qualidade e soluções personalizadas para os nossos clientes.
+        Durante nossa trajetória, estabelecemos uma reputação sólida e confiável, 
+        conquistando a confiança de milhares de pessoas e empresas em busca de 
+        proteção e tranquilidade.
+        </p>
+
+        <p className='t2'>Na nossa corretora, entendemos que cada indivíduo e 
+        cada empresa é único, com necessidades específicas. Por isso, nosso 
+        objetivo é oferecer uma ampla gama de opções em seguros e planos de 
+        saúde, para que nossos clientes encontrem a melhor solução para suas demandas particulares.
+        Trabalhamos em parceria com as principais seguradoras e operadoras de planos de saúde do mercado, 
+        garantindo acesso a produtos de qualidade, com coberturas abrangentes e serviços de excelência.
+        </p>
+
+        <p className='t2'>Além disso, acreditamos na importância de um 
+        relacionamento duradouro com nossos clientes. Estamos comprometidos em 
+        fornecer um atendimento ágil, eficiente e personalizado em todas as 
+        etapas do processo, desde a cotação inicial até o suporte contínuo em 
+        caso de sinistros ou dúvidas. Nossa missão é superar as expectativas 
+        dos nossos clientes, tornando-se um parceiro de confiança.
+        </p>
 
         <div className="profile-number">   
         <div>
-        <img src={img1} alt="a" />
-        <h4>+3.600</h4>
-        <p>Clientes</p>
+        <img src={people} alt="a" />
+        <h4 className="t1">+5000</h4>
+        <p className='t1'>Clientes Satisfeitos</p>
         </div>
-        <div>
-        <img src={img2} alt="a" />
-        <h4>+100</h4>
-        <p>Cotações Diárias</p>
-        </div>
-        <div>
-        <img src={img3} alt="a" />
-        <h4>+11</h4>
-        <p>Operadoras</p>
-        </div>
-        <div>
-        <img src={img4} alt="a" />
-        <h4>+5000</h4>
-        <p>Satisfeitos</p>
         </div>
       </div>  
     </div>
-     
+    </div>
     </section>
   )
 }
