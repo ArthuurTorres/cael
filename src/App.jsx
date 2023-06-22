@@ -1,5 +1,6 @@
 import './components/utilities/typography.css'
 import './components/utilities/colors.css'
+import './components/utilities/responsive.css'
 import Form from './components/Form'
 import Header from './components/Header'
 import Profile from './components/Profile'
