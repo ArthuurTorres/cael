@@ -15,18 +15,16 @@
 .benefits{
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
-  height: 400px;
   margin: auto;
   margin-top: 4rem;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .benefits div{
   width: 270px;
-  height: 390px;
-  margin: auto;
+  height: 370px;
   padding: 10px 20px;
   background-color: var(--color-3);
   border-radius: 1rem;

@@ -6,11 +6,6 @@
   box-shadow: inset 0px 0px 20px 20px #F7F7F8;
 }
 
-.caralho{
-  display: flex;
-}
-
-
 .profile{
   margin: auto;
   width: 800px;
@@ -74,3 +69,10 @@
 .profile-number p{
   font-size: 1.2rem;
 }
+
+@media (max-width:800px){
+  .profile-logo{
+    display: none;
+  }  
+}
+

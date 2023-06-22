@@ -3,11 +3,13 @@ footer{
   background-color:  var(--color-4);
   color: var(--color-2);
   display: flex;
+  /* flex-wrap: wrap; */
   padding-top: 4rem;
 }
 
 .section-footer{
   display: flex;
+  flex-wrap: wrap;
   text-align: left;
   margin: auto;
 }
@@ -15,4 +17,5 @@ footer{
 .footer-text{
   width: 500px;
   margin-right: 10rem;
+  margin-bottom: 3rem;
 }

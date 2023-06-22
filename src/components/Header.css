@@ -28,3 +28,53 @@ header a{
 header a:hover{
   text-decoration: underline;
 }
+
+
+@media (max-width: 1050px){
+  header nav{
+    margin-right: 3rem;
+  }
+}
+@media (max-width: 950px){
+  header{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  header img{
+    margin: auto;
+  }
+  header nav{
+    margin-right: 0px;
+  }
+  header nav a{
+    padding: 0.50rem 0.60rem;
+  }
+}
+
+@media (max-width: 650px){
+    header{
+      justify-content: center;
+    }
+    header nav{
+      padding: 0.5rem 0.5rem;
+    }
+    header nav a{
+      margin-right: 0px;
+      font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 380px){
+  header{
+    margin: auto;
+  }
+  header nav{
+    display: gird;
+    gap: 0.5rem;
+  }
+  header nav a{
+    font-size: 1.2rem;
+  }
+}

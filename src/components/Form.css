@@ -7,7 +7,7 @@
 
 .bg-form div{
   width: 26rem;
-  height: 23rem;
+  height: 24rem;
   position: absolute;
   right: 15%;
   top: 20%;
@@ -104,8 +104,47 @@
   border: 1px solid #ddd;
   border-radius: 0.2rem;
   color: gray;
+  box-shadow: 1px 1px gray
 }
 
 #appearance-select:hover{
   transform: scale(1.05);
+}
+
+@media (max-width: 900px){
+  .containerform{
+    min-height: 500px;
+  }
+  .bg-form div{
+    top: 30%;
+  }
+}
+
+@media (max-width: 650px){
+  .bg-form div{
+    right: 10%;
+    width: 24rem;
+    height: 23rem;
+  }
+  .bg-form{
+    height: 500px;
+  }
+}
+
+@media (max-width: 450px){
+  .bg-form div{
+    left: 10%;
+    width: 21rem;
+    height: 22rem;
+  }
+}
+
+
+@media (max-width: 399px){
+  .bg-form div{
+    text-align: center;
+    width: 19rem;
+    height: 22rem;
+    top: 30%;
+  }
 }

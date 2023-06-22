@@ -16,14 +16,15 @@
   display: flex;
   flex-wrap: wrap;
   text-align: left;
-  justify-content:space-evenly;
-  margin-right: 5rem;
+  justify-content:center;
 }
 
 .contact{
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
+  width: 300px;
+  justify-content: center;
 }
 
 .contact-logo img{
@@ -71,4 +72,17 @@
   height: 15px;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+
+@media (max-width:800px) {
+  .container-contact{
+    padding-top: 2rem;
+  }
+  .section-contact{
+    display: grid;
+  }
+  .contact{
+    justify-content: normal;
+  }
 }
