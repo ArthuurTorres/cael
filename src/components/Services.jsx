@@ -16,22 +16,22 @@ const Services = () => {
 
       <div className="icon-text t2">
       <div>
-          <a href="#">
+          <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer">
           <img src={health} alt="Refound" />
           </a>
       </div>
       <div>
-          <a href="#">
+          <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer">
           <img src={security} alt="Refound" />
           </a>
       </div>
       <div>
-          <a href="#">
+          <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer">
           <img src={dentistry} alt="Refound" />
           </a>
       </div>
       <div>
-          <a href="#">
+          <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer">
           <img src={car} alt="Refound" />
           </a>
       </div>

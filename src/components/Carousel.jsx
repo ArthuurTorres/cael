@@ -5,15 +5,16 @@ import Slider from 'react-slick';
 import image1 from '../assets/partners/amil.svg'
 import image2 from '../assets/partners/bradesco.svg'
 import image3 from '../assets/partners/sulamerica-logo-vector.svg'
-import image4 from '../assets/partners/golden-cross-logo.svg'
+import image4 from '../assets/partners/golden.png'
 import image5 from '../assets/partners/porto-seguro-logo.svg'
-import image6 from '../assets/partners/Unimed-Rio.png'
-import image7 from '../assets/partners/grupo-notredame.jpg'
+import image6 from '../assets/partners/unimed.png'
+import image7 from '../assets/partners/notre.png'
 import image8 from '../assets/partners/assim-saude-logo.svg'
-// import image9 from '../assets/partners/qualicorp-logo-2022.svg'
-// import image10 from '../assets/partners/qualicorp-logo-2022.svg'
-// import image11 from '../assets/partners/qualicorp-logo-2022.svg'
-// import image12 from '../assets/partners/qualicorp-logo-2022.svg'
+import image9 from '../assets/partners/qualicorp-logo-2022.svg'
+import image10 from '../assets/partners/supermed.png'
+import image11 from '../assets/partners/prevent.png'
+import image12 from '../assets/partners/medsenior.png'
+import image13 from '../assets/partners/levesaude.png'
 
 
 function SampleNextArrow(props) {
@@ -48,12 +49,12 @@ const Carousel = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -114,6 +115,21 @@ const Carousel = () => {
         </div>
         <div>
         <img src={image8} alt='ss'/>
+        </div>
+        <div>
+        <img src={image9} alt='ss'/>
+        </div>
+        <div>
+        <img src={image10} alt='ss'/>
+        </div>
+        <div>
+        <img src={image11} alt='ss'/>
+        </div>
+        <div>
+        <img src={image12} alt='ss'/>
+        </div>
+        <div>
+        <img src={image13} alt='ss'/>
         </div>
       </Slider>
     </div>

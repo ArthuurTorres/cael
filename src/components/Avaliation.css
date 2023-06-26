@@ -61,3 +61,21 @@
   border-radius: 2rem;
   margin-bottom: 0.5rem;
 }
+
+
+@media (max-width: 850px) {
+  .like{
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 750px){
+  .avaliation-text{
+    width: 270px;
+    margin-top: 2rem;
+  }
+  .avaliation-text2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}

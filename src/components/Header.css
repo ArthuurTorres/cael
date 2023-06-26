@@ -58,11 +58,12 @@ header a:hover{
       justify-content: center;
     }
     header nav{
-      padding: 0.5rem 0.5rem;
+      display: flex;
+      text-align: center;
     }
     header nav a{
       margin-right: 0px;
-      font-size: 1.1rem;
+      font-size: .9rem;
     }
 }
 
@@ -73,8 +74,5 @@ header a:hover{
   header nav{
     display: gird;
     gap: 0.5rem;
-  }
-  header nav a{
-    font-size: 1.2rem;
   }
 }

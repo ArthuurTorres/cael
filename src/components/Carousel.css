@@ -35,7 +35,7 @@
 .carousel{
   margin: auto;
   padding: 3rem;
-  width: 65%;
+  width: 60%;
 }
 
 .carousel img{
@@ -47,7 +47,7 @@
 @media (max-width:500px) {
   .carousel{
     width: 300px;
-  };
+  }
 }
 
 @media (max-width:500px){

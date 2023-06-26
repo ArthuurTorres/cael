@@ -57,14 +57,18 @@
   cursor: pointer;
   margin-top: 4rem;
   margin-bottom: 3.5rem;
+}
+
+.button a{
+  text-decoration: none;
   color: var(--color-1);
 }
 
 .button:hover{
   background: linear-gradient(var(--color-3), var(--color-3));
-  transform: scale(1.04);
-  transition: 1s;
-  color: var(--color-2);
+  transform: scale(1.02);
+  transition: 0.5s;
+  box-shadow: 4px 4px 4px var(--color-4);
 }
 
 .buttonarrow{

@@ -45,7 +45,7 @@ const Contact = () => {
         <div className="contact-button">
         <button className='button'>
         <img className='buttonarrow' src={arrowr} alt="arrow left"/>
-        <span className='t1'>Fale com seu consultor</span>
+        <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer" className='t1'><span>SOLICITE SUA COTAÇÃO</span></a>
         <img className='buttonarrow' src={arrowl} alt="arrow right"/>
         </button>
         </div>

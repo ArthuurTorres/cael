@@ -30,12 +30,19 @@
 }
 
 .icon-text div{
-  width: 280px;
-  height: 400px;
   margin-top: 3rem;
   border-radius: 1rem;
 }
 
 .icon-text img{
   border-radius: 1rem;
+}
+
+@media (max-width: 500px) {
+  .icon-text div{
+    margin-top: 1px;
+  }
+  .section-services{
+    padding-top: 2rem;
+  }
 }
