@@ -18,3 +18,14 @@ footer{
   margin-right: 10rem;
   margin-bottom: 3rem;
 }
+
+@media (max-width: 600px) {
+  .section-footer{
+    text-align: center;
+    margin: auto;
+  }
+  .footer-text{
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
