@@ -3,6 +3,7 @@
   background-image: url('../assets/fbanner.png');
   background-size: cover;
   border-radius: 0.3rem;
+  position: relative;
 }
 
 .bg-form div{
@@ -13,6 +14,7 @@
   top: 20%;
   border-radius: 1rem;
   background-color: #fff;
+  margin-top: 1rem;
 }
 
 .container{
@@ -117,7 +119,10 @@
     background-position: right;
   }
   .bg-form div{
-    top: 28%;
+    right: 10%;
+    width: 24rem;
+    height: 23rem;
+    top: 15%;
   }
 }
 
@@ -126,6 +131,7 @@
     right: 10%;
     width: 24rem;
     height: 23rem;
+    top: 15%;
   }
   .bg-form{
     height: 500px;
