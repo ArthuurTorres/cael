@@ -114,9 +114,7 @@
 @media (max-width: 900px){
   .containerform{
     min-height: 500px;
-  }
-  .bg-form div{
-    top: 30%;
+    background-position: right;
   }
 }
 
@@ -135,7 +133,7 @@
   .bg-form div{
     left: 11%;
     width: 21rem;
-    height: 23rem;
+    height: 24rem;
   }
   .form button{
     left: 6rem;
@@ -146,5 +144,12 @@
 @media (max-width: 399px){
   .bg-form div{
     left: 9%;
+  }
+}
+
+
+@media (max-width: 380px){
+  .bg-form div{
+    left: 5%;
   }
 }

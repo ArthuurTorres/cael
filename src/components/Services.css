@@ -49,3 +49,12 @@
     padding-top: 2rem;
   }
 }
+
+@media (max-width: 380px){
+  .icon-text img{
+    width: 160px;
+  }
+  .section-services{
+    min-height: auto;
+  }
+}
