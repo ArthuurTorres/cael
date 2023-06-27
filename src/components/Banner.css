@@ -2,6 +2,7 @@
   min-height: 300px;
   background: url('../assets/middle-banner.png') no-repeat;
   background-size: cover;
+  background-position: center;
   margin: auto;
   display: grid;
 }

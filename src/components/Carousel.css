@@ -52,6 +52,12 @@
 
 @media (max-width:500px){
   .carousel img{
-    width: 100px;
+    width: 125px;
+  }
+}
+
+@media (max-width:400px) {
+  .carousel{
+    width: 250px;
   }
 }

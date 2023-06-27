@@ -118,10 +118,12 @@
   }
   .profile p{
     font-size: 0.9rem;
+    text-align: left;
   }
   .text-profile{
     padding-right: 3rem;
     padding-left: 3rem;
     padding-top: 1rem;
+
   }
 }

@@ -133,18 +133,18 @@
 
 @media (max-width: 450px){
   .bg-form div{
-    left: 10%;
+    left: 11%;
     width: 21rem;
-    height: 22rem;
+    height: 23rem;
+  }
+  .form button{
+    left: 6rem;
   }
 }
 
 
 @media (max-width: 399px){
   .bg-form div{
-    text-align: center;
-    width: 19rem;
-    height: 22rem;
-    top: 30%;
+    left: 9%;
   }
 }

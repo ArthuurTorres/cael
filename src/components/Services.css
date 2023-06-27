@@ -38,7 +38,10 @@
   border-radius: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .icon-text img{
+    width: 180px;
+  }
   .icon-text div{
     margin-top: 1px;
   }
