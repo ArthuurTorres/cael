@@ -116,6 +116,9 @@
     min-height: 500px;
     background-position: right;
   }
+  .bg-form div{
+    top: 28%;
+  }
 }
 
 @media (max-width: 650px){
