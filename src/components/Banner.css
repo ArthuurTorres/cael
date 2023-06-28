@@ -33,8 +33,11 @@
 
 @media (max-width:800px){
  .banner-text{
-  text-align: right;
+  text-align: center;
  }
+ .detail-b{
+  padding: 0.60rem 0.8rem;
+}
 }
 
 @media (max-width:500px){
@@ -42,8 +45,7 @@
     font-size: 1.9rem;
   }
   .detail-b{
-    padding: 0.50rem 0.75rem;
-   
+    padding: 0.50rem 0.65rem;
   }
 }
 @media (max-width:400px){
@@ -53,9 +55,9 @@
   .banner-text h4{
     font-size: 1rem;
     margin-top: 0.3rem;
-    text-align: left;
+    text-align: center;
   }
   .detail-b{
-    padding: 0.50rem 0.75rem;
+    padding: 0.30rem 0.35rem;
   }
 }
