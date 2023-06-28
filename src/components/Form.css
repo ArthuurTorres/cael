@@ -8,10 +8,10 @@
 
 .bg-form div{
   width: 26rem;
-  height: 24rem;
+  height: 28rem;
   position: absolute;
   right: 15%;
-  top: 20%;
+  top: 17%;
   border-radius: 1rem;
   background-color: #fff;
   margin-top: 1rem;
@@ -135,8 +135,17 @@ form button.enviando::after{
 .error{
   color: red;
   margin-left: 0.9rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  }
+
+
+@media( max-width:1550px){
+  .containerform{
+    background: url('../assets/fbannerc.png') repeat;
+    background-position: right;
+  }
 }
+
 
 @media (max-width: 900px){
   .containerform{

@@ -8,7 +8,7 @@ import arrowr from '../assets/icons/arrowr.png'
 const Contact = () => {
   return (
     <>
-    <section className="container-contact">
+    <section className="container-contact" id="contact">
     <h2 className='t1'>Contatos<span className="text-detail">.</span></h2>
       <div className="section-contact">
         <div className="contact">

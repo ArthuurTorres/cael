@@ -38,6 +38,12 @@
   border-radius: 1rem;
 }
 
+@media(max-width: 1150px){
+  .icon-text img{
+    width: 230px;
+  }
+}
+
 @media (max-width: 600px) {
   .icon-text img{
     width: 180px;

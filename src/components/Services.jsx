@@ -8,7 +8,7 @@ import car from '../assets/car.png'
 const Services = () => {
   return (
 
-    <section className="section-services">
+    <section id="services" className="section-services">
      
 
       <h2 className='t1'>Serviços<span className="text-detail">.</span></h2>

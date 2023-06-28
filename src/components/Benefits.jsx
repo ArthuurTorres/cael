@@ -2,7 +2,7 @@ import './Benefits.css'
 
 const Benefits = () => {
   return (
-    <section className="section-benefits">
+    <section className="section-benefits" id="benefits">
       <h2 className='t1'>Benefícios<span className="text-detail">.</span></h2>
 
       <div className="benefits">

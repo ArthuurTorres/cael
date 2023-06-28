@@ -4,7 +4,7 @@ import people from '../assets/icons/people.png'
 
 const Profile = () => {
   return (
-    <section className="s2">
+    <section className="s2" id="who">
       <div className="caralho">
       <div className="profile-logo">
         
