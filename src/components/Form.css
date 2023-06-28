@@ -132,6 +132,12 @@ form button.enviando::after{
   transform: scale(1.05);
 }
 
+.error{
+  color: red;
+  margin-left: 0.9rem;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 900px){
   .containerform{
     min-height: 500px;
