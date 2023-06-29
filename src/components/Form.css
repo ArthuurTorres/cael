@@ -8,7 +8,7 @@
 
 .bg-form div{
   width: 26rem;
-  height: 28rem;
+  height: 27rem;
   position: absolute;
   right: 15%;
   top: 17%;
@@ -132,12 +132,17 @@ form button.enviando::after{
   transform: scale(1.05);
 }
 
+.space-form{
+  height: 0.6rem;
+  margin-top: -0.20rem;
+  margin-bottom: 0.25rem;
+}
+
 .error{
   color: red;
   margin-left: 0.9rem;
   font-size: 0.7rem;
-  }
-
+}
 
 @media( max-width:1550px){
   .containerform{
@@ -146,53 +151,34 @@ form button.enviando::after{
   }
 }
 
-
 @media (max-width: 900px){
   .containerform{
     min-height: 500px;
     background-position: right;
+    padding: 2rem;
   }
   .bg-form div{
-    right: 10%;
     width: 24rem;
-    height: 23rem;
-    top: 15%;
+    height: 26rem;
+    position: initial;
   }
-}
-
-@media (max-width: 650px){
-  .bg-form div{
-    right: 10%;
-    width: 24rem;
-    height: 23rem;
-    top: 10%;
-  }
-  .bg-form{
-    height: 500px;
+  .form button{
+    position: relative;
+    top: 10px;
+    left: -5px;
   }
 }
 
 @media (max-width: 450px){
   .bg-form div{
-    left: 11%;
-    width: 21rem;
-    height: 24rem;
-  }
-  .form button{
-    left: 6rem;
+  width: 21rem;
+  height: 26rem;
   }
 }
-
-
-@media (max-width: 399px){
-  .bg-form div{
-    left: 9%;
-  }
-}
-
 
 @media (max-width: 380px){
   .bg-form div{
-    left: 5%;
-  }
+    width: 19rem;
+    height: 29rem;
+    }
 }
