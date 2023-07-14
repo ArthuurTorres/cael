@@ -30,9 +30,9 @@ const Form = () => {
 
 
   return (
-    <section className="containerform">
+    <section className="containerform" data-aos="fade-left">
       <div className="bg-form">
-      <div className="container">
+      <div className="container" data-aos="zoom-in-left" data-aos-delay="350">
         <form className="form" id="form" onSubmit={handleSubmit(sendform)}>
           <h2 className='t1'>Preencha o Formulário e 
           <br></br>

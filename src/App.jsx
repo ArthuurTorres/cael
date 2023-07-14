@@ -12,6 +12,10 @@ import Footer from './components/Footer'
 import WhatsAppButton from './components/Whatsapp'
 import CarouselComponent from './components/Carousel'
 import Avaliation from './components/Avaliation'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function App() {
 

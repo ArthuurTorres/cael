@@ -5,6 +5,10 @@ header{
   justify-content: space-between;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header img{
   width: 200px;
   height: 80px;

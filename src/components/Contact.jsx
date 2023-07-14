@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <>
     <section className="container-contact" id="contact">
-    <h2 className='t1'>Contatos<span className="text-detail">.</span></h2>
-      <div className="section-contact">
+    <h2 className='t1' data-aos="fade-down">Contatos<span className="text-detail">.</span></h2>
+      <div className="section-contact" data-aos="fade-up">
         <div className="contact">
         <div className="contact-logo">
         <img src={mail} alt="mail" />
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         </div>
         
-        <div className="contact-button">
+        <div className="contact-button" data-aos="zoom-in-up">
         <button className='button'>
         <img className='buttonarrow' src={arrowr} alt="arrow left"/>
         <a href="https://wa.me/message/5W66BVDQQDZOF1" target="_blank" rel="noopener noreferrer" className='t1'><span>SOLICITE SUA COTAÇÃO</span></a>

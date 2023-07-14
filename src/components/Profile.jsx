@@ -10,7 +10,7 @@ const Profile = () => {
         
       </div>
 
-      <div className="profile">
+      <div className="profile" data-aos="fade-left">
         <div className="text-profile">
         <img className="profile-logo" src={img} alt="logo da empresa" />
         <h3 className='t1'>Quem somos?</h3>

@@ -86,7 +86,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className="container-carousel">
+    <div className="container-carousel" data-aos="fade-right">
       <div className="container-ctext">
       <h2 className='t1'>Operadoras e Seguradoras Disponíveis</h2>
       </div>

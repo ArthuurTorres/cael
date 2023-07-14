@@ -3,10 +3,10 @@ import './Benefits.css'
 const Benefits = () => {
   return (
     <section className="section-benefits" id="benefits">
-      <h2 className='t1'>Benefícios<span className="text-detail">.</span></h2>
+      <h2 className='t1' data-aos="fade-down">Benefícios<span className="text-detail">.</span></h2>
 
       <div className="benefits">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="100">
           <h3 className='t1'>Troca Descomplicada</h3>
           <p className='t2'>Se você já adquiriu um plano conosco e deseja fazer uma troca,
           temos uma ótima notícia: não cobramos nenhuma comissão!
@@ -16,7 +16,7 @@ const Benefits = () => {
           Conte conosco para realizar uma troca de plano tranquila e sem custos.
           </p>
         </div>
-        <div className="cashback">
+        <div className="cashback" data-aos="fade-up" data-aos-delay="200">
           <h3 className='t1'>Cashback CAEL</h3>
           <p className='t2'>Na nossa corretora, sua indicação vale dinheiro!
           Após contratar o seu plano de saúde conosco, indique nossos serviços
@@ -28,7 +28,7 @@ const Benefits = () => {
           adicionais através do nosso programa de indicação.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="300">
           <h3 className='t1'>Atendimento All-On</h3>
           <p className='t2'>Simplificamos o processo de cotação e contratação
           para você. Agora, pode fazer tudo online, via WhatsApp, ligação ou 
