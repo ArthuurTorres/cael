@@ -9,7 +9,7 @@ import fb4 from "../assets/fb4.jpeg";
 const Avaliation = () => {
   return (
     <section className="container-avaliation">
-      <h1 className="t1" data-aos="fade-right">
+      <h1 className="t1" data-aos="fade-down">
         <img className="like" src={like} alt="like" />O que os clientes dizem
         sobre a Cael<span className="text-detail">.</span>
       </h1>

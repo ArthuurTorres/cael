@@ -110,16 +110,16 @@
 }
 
 
-@media (max-width:600px){
+@media (max-width:678px){
   .profile-logo{
     width: 280px;
-    top: -10px;
-    left: 16%;
+    top: -8px;
+    left: 27%;
   }
   .profile{
     left: 0px;
     position: initial;
-    width: 500px;
+    width: 100%;
   }
   .profile p{
     font-size: 0.9rem;
@@ -129,33 +129,13 @@
     padding-right: 3rem;
     padding-left: 3rem;
     padding-top: 1rem;
+    border-radius: 0px;
   }
 }
 
 
 @media (max-width:550px) {
-  .profile{
-    width: 400px;
-  }
   .profile-logo{
     position: initial;
-  }
-}
-
-@media (max-width:410px) {
-  .profile{
-    width: 380px;
-  }
-}
-
-@media (max-width:385px) {
-  .profile{
-    width: 360px;
-  }
-}
-
-@media (max-width:370px) {
-  .profile{
-    width: 340px;
   }
 }
