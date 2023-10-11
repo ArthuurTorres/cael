@@ -24,7 +24,7 @@ const Form = () => {
         {
           method: 'POST',
           headers: {
-            Token: 'gRUMzetXAnmMBBxPTbR652604a38f52b',
+            "Token": "gRUMzetXAnmMBBxPTbR652604a38f52b",
           },
         }
       ).finally(() => {
