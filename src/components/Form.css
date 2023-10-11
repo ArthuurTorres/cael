@@ -1,0 +1,184 @@
+.containerform{
+  min-height: 600px;
+  background-image: url('../assets/fbanner.png');
+  background-size: cover;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.bg-form div{
+  width: 26rem;
+  height: 27rem;
+  position: absolute;
+  right: 15%;
+  top: 17%;
+  border-radius: 1rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.container{
+  margin: auto;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.form h2{
+  text-align: center;
+  color: #000000;
+  margin-top: 3px;
+}
+
+.form input{
+  padding: 0.7rem;
+  padding-right: 6rem;
+  margin-top: 0.3rem;
+  box-shadow: 1px 1px 3px gray;
+  margin-left: 0.9rem;
+  border: 0;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  margin-right: 1.5rem;
+  font-family: var(--text-Poppins);
+  border: 1px solid #ddd;
+}
+
+.form input::placeholder{
+  border: 0;
+}
+
+.form input:focus{
+  outline: none;
+  transform: scale(1.05);
+  border: solid 1px black;
+}
+
+.form input:hover{
+  transform: scale(1.05);
+}
+
+.form select{
+  margin-top: 0.3rem;
+  font-family: var(--text-Poppins);
+}
+
+.form button {
+  padding: 1rem 2rem;
+  margin: auto;
+  border-radius: 5rem;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: var(--color-1);
+  font: 600 1rem/1 'Poppins', sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 8rem;
+  background-color: var(--color-3);
+}
+
+button.enviando {
+  transition: 1s;
+  background-color: #ccc;
+  color: var(--color-1);
+  cursor: not-allowed;
+}
+
+form button.enviando::after{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../assets/icons/verify.png');
+  position: relative;
+  right: -0.75rem;
+  top: 2px;
+}
+
+.form button::after{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../assets/icons/arrowrr.png');
+  position: relative;
+  right: -0.75rem;
+  top: 2px;
+}
+
+.form img{
+  width: 5rem;
+  height: 5rem;
+}
+
+#appearance-select {
+  margin-left: 0.9rem;
+  background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat var(--color-2);
+  margin-right: 1.5rem;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+  color: gray;
+  box-shadow: 1px 1px 3px gray
+}
+
+#appearance-select:hover{
+  transform: scale(1.05);
+}
+
+.space-form{
+  height: 0.6rem;
+  margin-top: -0.20rem;
+  margin-bottom: 0.25rem;
+}
+
+.error{
+  color: red;
+  margin-left: 0.9rem;
+  font-size: 0.7rem;
+}
+
+@media( max-width:1550px){
+  .containerform{
+    background: url('../assets/fbannerc.png') repeat;
+    background-position: right;
+  }
+}
+
+@media (max-width: 900px){
+  .containerform{
+    min-height: 500px;
+    background-position: right;
+    padding: 2rem;
+  }
+  .bg-form div{
+    width: 24rem;
+    height: 26rem;
+    position: initial;
+  }
+  .form button{
+    position: relative;
+    top: 10px;
+    left: -5px;
+  }
+}
+
+@media (max-width: 450px){
+  .bg-form div{
+  width: 21rem;
+  height: 26rem;
+  }
+}
+
+@media (max-width: 380px){
+  .bg-form div{
+    width: 19rem;
+    height: 29rem;
+    }
+}

@@ -1,0 +1,141 @@
+.s2{
+  min-height: 800px;
+  padding-top: 2rem;
+  background: url('../assets/bg2.png');
+  color: white;
+  box-shadow: inset 0px 0px 20px 20px #F7F7F8;
+}
+
+.profile{
+  margin: auto;
+  width: 800px;
+  border-radius: 1rem;
+  position: absolute;
+  left: 40%;
+}
+
+.text-profile{
+  height: auto;
+  min-height: unset;
+  text-align: left;
+  background-color: #232324;
+  padding-top: 5rem;
+  padding-right: 6rem;
+  padding-bottom: 1rem;
+  padding-left: 5.5rem;
+  /* transform: translateX(6%) translateY(0%); */
+  border-radius: 20px;
+}
+
+.profile-logo{
+  position: absolute;
+  top: 7rem;
+  left: -27rem;
+  border-radius: 2rem;
+  border: solid 5px #232324;
+}
+
+.profile h3{
+  color: #898989;
+}
+
+.profile h2{
+  color: var(--color-2);
+  font-size: 2.3rem;
+  margin-bottom: 1.3rem;
+}
+.profile p{
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.profile-number{
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--color-2);
+}
+
+.profile-number div{
+  margin: 0 auto;
+}
+
+.profile-number h4{
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+
+.profile-number p{
+  font-size: 1.2rem;
+}
+
+
+@media (max-width:1350px){
+  .profile-logo{
+   position: relative;
+   top: -2rem;
+   left: 14%;
+   border: none;
+   width: 350px;
+  }
+  .text-profile{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .profile{
+    width: 600px;
+    position: initial;
+  }
+}
+@media (max-width:1100px){
+  .profile{
+    width: 800px;
+  }
+  .profile p{
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:1100px){
+
+  .profile{
+    left: 0px;
+    position: initial;
+    width: 600px;
+  }
+  .profile p{
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width:678px){
+  .profile-logo{
+    width: 280px;
+    top: -8px;
+    left: 27%;
+  }
+  .profile{
+    left: 0px;
+    position: initial;
+    width: 100%;
+  }
+  .profile p{
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .text-profile{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    border-radius: 0px;
+  }
+}
+
+
+@media (max-width:550px) {
+  .profile-logo{
+    position: initial;
+  }
+}

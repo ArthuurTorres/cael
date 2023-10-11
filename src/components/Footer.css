@@ -1,0 +1,31 @@
+footer{
+  min-height: 200px;
+  background-color:  var(--color-4);
+  color: var(--color-2);
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-top: 4rem;
+}
+
+.section-footer{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: auto;
+}
+
+.footer-text{
+  margin-right: 10rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+  .section-footer{
+    text-align: center;
+    margin: auto;
+  }
+  .footer-text{
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
